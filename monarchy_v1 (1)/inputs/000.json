@@ -1,0 +1,24 @@
+{
+  "king": "OldKing",
+  "pinguins": [
+    {
+      "name": "OldKing",
+      "age": 128,
+      "gender": "MALE",
+      "parents": []
+    },
+    {
+      "name": "Older Bro",
+      "age": 64,
+      "gender": "MALE",
+      "parents": ["OldKing"]
+    },
+    {
+      "name": "Karlík Veliký",
+      "age": 32,
+      "gender": "MALE",
+      "parents": ["OldKing"]
+    }
+  ],
+  "expectedKingsOrder": ["OldKing", "Older Bro", "Karlík Veliký"]
+}

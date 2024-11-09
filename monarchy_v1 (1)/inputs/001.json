@@ -1,0 +1,108 @@
+{
+  "king": "1",
+  "pinguins": [
+    {
+      "name": "1",
+      "age": 53,
+      "gender": "MALE",
+      "parents": []
+    },
+    {
+      "name": "2",
+      "age": 35,
+      "gender": "MALE",
+      "parents": ["1"]
+    },
+    {
+      "name": "3",
+      "age": 55,
+      "gender": "FEMALE",
+      "parents": ["1"]
+    },
+    {
+      "name": "4",
+      "age": 34,
+      "gender": "MALE",
+      "parents": ["1"]
+    },
+    {
+      "name": "5",
+      "age": 24,
+      "gender": "MALE",
+      "parents": ["1"]
+    },
+    {
+      "name": "6",
+      "age": 35,
+      "gender": "FEMALE",
+      "parents": ["2"]
+    },
+    {
+      "name": "7",
+      "age": 53,
+      "gender": "MALE",
+      "parents": ["2", "3"]
+    },
+    {
+      "name": "8",
+      "age": 33,
+      "gender": "FEMALE",
+      "parents": ["2", "3"]
+    },
+    {
+      "name": "9",
+      "age": 12,
+      "gender": "MALE",
+      "parents": ["2", "3"]
+    },
+    {
+      "name": "Karlík Veliký",
+      "age": 52,
+      "gender": "MALE",
+      "parents": ["5"]
+    },
+    {
+      "name": "11",
+      "age": 33,
+      "gender": "FEMALE",
+      "parents": ["3", "5"]
+    },
+    {
+      "name": "12",
+      "age": 54,
+      "gender": "MALE",
+      "parents": ["7", "8"]
+    },
+    {
+      "name": "13",
+      "age": 23,
+      "gender": "MALE",
+      "parents": ["12", "8"]
+    },
+    {
+      "name": "14",
+      "age": 43,
+      "gender": "FEMALE",
+      "parents": ["9", "11"]
+    },
+    {
+      "name": "15",
+      "age": 23,
+      "gender": "MALE",
+      "parents": ["9", "11"]
+    },
+    {
+      "name": "16",
+      "age": 34,
+      "gender": "FEMALE",
+      "parents": ["13"]
+    },
+    {
+      "name": "17",
+      "age": 11,
+      "gender": "FEMALE",
+      "parents": ["13", "14"]
+    }
+  ],
+  "expectedKingsOrder": ["1", "2", "7", "12", "13", "9", "15", "4", "5", "Karlík Veliký"]
+}
